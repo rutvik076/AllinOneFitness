@@ -176,6 +176,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/sem6(21mca102)/Fitness_All_in_One/Fitness_All_in_One/Fitness_All_in_One/Views/DietPlan/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlldFBsYW5cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/sem6(21mca102)/Fitness_All_in_One/Fitness_All_in_One/Fitness_All_in_One/Views/DietPlan/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlldFBsYW5cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/sem6(21mca102)/Fitness_All_in_One/Fitness_All_in_One/Fitness_All_in_One/Views/DietPlan/Description.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlldFBsYW5cRGVzY3JpcHRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/sem6(21mca102)/Fitness_All_in_One/Fitness_All_in_One/Fitness_All_in_One/Views/DietPlan/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlldFBsYW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/sem6(21mca102)/Fitness_All_in_One/Fitness_All_in_One/Fitness_All_in_One/Views/DietPlan/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlldFBsYW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/sem6(21mca102)/Fitness_All_in_One/Fitness_All_in_One/Fitness_All_in_One/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -202,6 +222,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/sem6(21mca102)/Fitness_All_in_One/Fitness_All_in_One/Fitness_All_in_One/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/sem6(21mca102)/Fitness_All_in_One/Fitness_All_in_One/Fitness_All_in_One/Views/UserDietPlan/GeneratePlan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRpZXRQbGFuXEdlbmVyYXRlUGxhbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/sem6(21mca102)/Fitness_All_in_One/Fitness_All_in_One/Fitness_All_in_One/Views/UserDietPlan/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRpZXRQbGFuXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/sem6(21mca102)/Fitness_All_in_One/Fitness_All_in_One/Fitness_All_in_One/Views/Users/Delete.cshtml]
