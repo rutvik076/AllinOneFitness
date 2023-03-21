@@ -1,0 +1,49 @@
+﻿@model IEnumerable<DietPlanModel>
+
+<h1>Diet Plans</h1>
+
+<a asp-action="Create">Create New Diet Plan</a>
+<link href="https://cdn.datatables.net/1.13.2/css/jquery.dataTables.min.css" rel="stylesheet" />
+
+@if (Model.Any())
+{
+    <table class="display" id="abc">
+        <thead>
+            <tr>
+                <th>Diet Name</th>
+                <th>Gender</th>
+                <th>Food</th>
+                <th>Age</th>
+                <th>Weight</th>
+                <th>Height</th>
+                <th>BMI</th>
+                
+
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var dietPlan in Model)
+            {
+                <tr>
+                    <td>@dietPlan.DietName</td>
+                    <td>@dietPlan.Gender</td>
+                    <td>@dietPlan.Food</td>
+                    <td>@(dietPlan.StartAge.ToString() + " - " + dietPlan.EndAge.ToString())</td>
+                    <td>@(dietPlan.StartWeight.ToString() + " - " + dietPlan.EndWeight.ToString())</td>
+                    <td>@(dietPlan.StartHeight.ToString() + " - " + dietPlan.EndHeight.ToString())</td>
+                    <td>@dietPlan.BMI</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@dietPlan.Id">Edit</a> |
+                        <a asp-action="Description" asp-route-id="@dietPlan.Id">Description</a> |
+                        <a asp-action="Delete" asp-route-id="@dietPlan.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No diet plans found.</p>
+}

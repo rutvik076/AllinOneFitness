@@ -1,0 +1,149 @@
+﻿@model DietPlanModel
+
+<h1>Edit Diet Plan</h1>
+
+<style>
+    .form-group {
+        margin-bottom: 30px;
+    }
+
+    form.border {
+        border: 1px solid #ddd;
+        padding: 20px;
+    }
+
+</style>
+
+<script src="https://cdn.tiny.cloud/1/<cyeuv5ee1ynnvo6hkqpery281511b1y0hwa5dvuiwejsxd3a>/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+
+<form asp-action="Edit" asp-route-id="@Model.Id" method="post" class="border">
+    <div class="form-group">
+        <label asp-for="DietName">Diet Name:</label>
+        <input asp-for="DietName" class="form-control" />
+        <span asp-validation-for="DietName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Gender">Gender:</label>
+        <div>
+            <label>
+                <input type="radio" asp-for="Gender" value="Male" /> Male
+            </label>
+            <label>
+                <input type="radio" asp-for="Gender" value="Female" /> Female
+            </label>
+        </div>
+        <span asp-validation-for="Gender" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Food">Food:</label>
+        <div>
+            <label>
+                <input type="radio" asp-for="Food" value="NonVeg" /> NonVeg
+            </label>
+            <label>
+                <input type="radio" asp-for="Food" value="Veg" /> Veg
+            </label>
+        </div>
+        <span asp-validation-for="Gender" class="text-danger"></span>
+    </div>
+
+
+    <div class="form-group">
+        <label asp-for="StartAge">Start Age</label>
+        <input type="range" asp-for="StartAge" min="14" max="60" class="form-control-range" onchange="updateRangeValue(this, 'startAgeValue')" />
+        <span class="mx-2" id="startAgeValue">@Model?.StartAge</span>
+        <label asp-for="EndAge">End Age</label>
+        <input type="range" asp-for="EndAge" min="14" max="60" class="form-control-range" onchange="updateRangeValue(this, 'endAgeValue')" />
+        <span class="mx-2" id="endAgeValue">@Model?.EndAge</span>
+
+
+    </div>
+
+
+    <div class="form-group">
+        <label asp-for="StartWeight">Start Weight</label>
+        <input type="range" asp-for="StartWeight" min="40" max="120" class="form-control-range" onchange="updateRangeValue(this, 'startWeightValue')" />
+        <span class="mx-2" id="startWeightValue">@Model?.StartWeight</span>
+        <label asp-for="EndWeight">End Weight</label>
+        <input type="range" asp-for="EndWeight" min="40" max="120" class="form-control-range" onchange="updateRangeValue(this, 'endWeightValue')" />
+        <span class="mx-2" id="endWeightValue">@Model?.EndWeight</span>
+
+    </div>
+
+    <div class="form-group">
+        <label asp-for="StartHeight">Start Height</label>
+        <input type="range" asp-for="StartHeight" min="130" max="200" class="form-control-range" onchange="updateRangeValue(this, 'startHeightValue')" />
+        <span class="mx-2" id="startHeightValue">@Model?.StartHeight</span>
+        <label asp-for="EndHeight">End Height</label>
+        <input type="range" asp-for="EndHeight" min="130" max="200" class="form-control-range" onchange="updateRangeValue(this, 'endHeightValue')" />
+        <span class="mx-2" id="endHeightValue">@Model?.EndHeight</span>
+    </div>
+   
+    <div class="form-group">
+        <label asp-for="BMI">BMI:</label>
+        <div>
+            <label>
+                <input type="radio" asp-for="BMI" value="Normal" /> Normal weight
+            </label>
+            <label>
+                <input type="radio" asp-for="BMI" value="UnderWeight" /> Under weight
+            </label>
+            <label>
+                <input type="radio" asp-for="BMI" value="OverWeight" /> Over weight
+            </label>
+            <label>
+                <input type="radio" asp-for="BMI" value="Obese" /> Obese
+            </label>
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="Description">Description:</label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Edit </button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form> 
+
+<script>
+    function updateRangeValue(input, spanId) {
+        document.getElementById(spanId).textContent = input.value;
+    }
+</script>
+<script>
+    tinymce.init({
+        selector: 'textarea[name="Description"]',
+        plugins: 'image',
+        toolbar: 'undo redo | bold italic | alignleft aligncenter alignright | image',
+        height: 300,
+        images_upload_url: 'https://dietimage.com/api/upload-image', // Replace with your server-side image upload API endpoint
+        images_upload_credentials: true,
+        file_picker_types: 'image',
+        file_picker_callback: function (callback, value, meta) {
+            if (meta.filetype === 'image') {
+                var input = document.createElement('input');
+                input.setAttribute('type', 'file');
+                input.setAttribute('accept', 'image/*');
+
+                input.onchange = function () {
+                    var file = this.files[0];
+
+                    var reader = new FileReader();
+                    reader.onload = function () {
+                        var blobCache = tinymce.activeEditor.editorUpload.blobCache;
+                        var blobInfo = blobCache.create(
+                            file.name,
+                            file,
+                            reader.result
+                        );
+                        callback(blobInfo.blobUri(), { title: file.name });
+                    };
+                    reader.readAsDataURL(file);
+                };
+                input.click();
+            }
+        }
+    });
+</script>

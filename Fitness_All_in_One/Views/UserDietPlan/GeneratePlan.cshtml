@@ -1,0 +1,104 @@
+﻿@model List<DietPlanModel>
+
+<h1>Diet Plans</h1>
+<link href="https://cdn.datatables.net/1.13.2/css/jquery.dataTables.min.css" rel="stylesheet" />
+
+<!-- Add FontAwesome CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+<style>
+    .description-hidden {
+        display: none;
+    }
+
+    .toggle-link {
+        text-decoration: none;
+        color: #000;
+    }
+
+    .toggle-icon {
+        margin-right: 5px;
+        font-family: "Font Awesome 5 Free";
+    }
+
+        .toggle-icon:before {
+            content: "\f06e";
+        }
+
+        .toggle-icon.open:before {
+            content: "\f070";
+        }
+
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+</style>
+
+@if (Model.Count == 0)
+{
+    <p>No diet plans available.</p>
+}
+else
+{
+    <div class="center">
+        <label for="food-type-filter">Food Type:</label>
+        <select id="food-type-filter">
+            <option value="">All</option>
+            <option value="Veg">Veg</option>
+            <option value="NonVeg">Non-Veg</option>
+        </select>
+    </div>
+
+    <table class="display" id="xyz">
+        <thead>
+            <tr>
+                <th>Diet Name</th>
+                <th>Description</th>
+                <th>Food</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var dietPlan in Model)
+            {
+                <tr data-food-type="@dietPlan.Food">
+                    <td>@dietPlan.DietName</td>
+                    <td>
+                        <div class="description-toggle">
+                            <a href="#" class="toggle-link">
+                                <span class="toggle-icon"></span>
+                            </a>
+                            <div class="description-content description-hidden">
+                                @Html.Raw(dietPlan.Description)
+                            </div>
+                        </div>
+                    </td>
+                    <td>@dietPlan.Food</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(function () {
+        $('.toggle-link').click(function () {
+            var icon = $(this).find('.toggle-icon');
+            icon.toggleClass('open');
+            $(this).closest('.description-toggle').find('.description-content').toggleClass('description-hidden');
+        });
+
+        $('#food-type-filter').change(function () {
+            var selectedValue = $(this).val();
+
+            if (selectedValue === '') {
+                $('tbody tr').show();
+            } else {
+                $('tbody tr').hide();
+                $('tbody tr[data-food-type="' + selectedValue + '"]').show();
+            }
+        });
+    });
+</script>

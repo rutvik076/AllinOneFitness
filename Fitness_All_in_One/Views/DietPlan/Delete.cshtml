@@ -1,0 +1,14 @@
+﻿@model DietPlanModel
+
+<h2>Delete Diet Plan</h2>
+
+<p>Are you sure you want to delete the diet plan "@Model.DietName"?</p>
+
+<form asp-action="DeleteConfirmed" asp-route-id="@Model.Id" method="post">
+    @Html.AntiForgeryToken()
+    <div class="form-group">
+        <input type="submit" value="Delete" class="btn btn-danger" />
+        <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+    </div>
+</form>
+

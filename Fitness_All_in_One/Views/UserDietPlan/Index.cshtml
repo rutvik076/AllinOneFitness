@@ -1,0 +1,37 @@
+﻿@model UserDetails
+
+@{
+    double weight = Convert.ToDouble(Model.Weight);
+    double height = Convert.ToDouble(Model.Height) / 100;
+    double bmi = weight / (height * height);
+}
+
+<h2>Get Your Diet Plan</h2>
+<div>
+    <p><strong>Name:</strong> @Model.Name</p>
+    <p><strong>Gender:</strong> @Model.Gender</p>
+    <p><strong>Age:</strong> @Model.Age</p>
+    <p><strong>Weight:</strong> @Model.Weight</p>
+    <p><strong>Height:</strong> @Model.Height</p>
+    <p><strong>Target Weight:</strong> @Model.TargetWeight</p>
+    <p><strong>BMI Rate:</strong> @bmi.ToString("#.##")</p>
+    <p>
+        <strong>Your BMI is :</strong> @if (bmi < 18.5)
+        {
+            <text>Underweight</text>
+        }
+        else if (bmi >= 18.5 && bmi <= 24.9)
+        {
+            <text>Normal weight</text>
+        }
+        else if (bmi >= 25 && bmi <= 29.9)
+        {
+            <text>Overweight</text>
+        }
+        else
+        {
+            <text>Obese</text>
+        }
+    </p>
+    @Html.ActionLink("Generate Diet Plan", "GeneratePlan", "UserDietPlan", null, new { @class = "btn btn-primary" })
+</div>
