@@ -4,7 +4,12 @@
 
 <a asp-action="Create">Create New Diet Plan</a>
 <link href="https://cdn.datatables.net/1.13.2/css/jquery.dataTables.min.css" rel="stylesheet" />
-
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success" role="alert">
+        @TempData["Message"]
+    </div>
+}
 @if (Model.Any())
 {
     <table class="display" id="abc">

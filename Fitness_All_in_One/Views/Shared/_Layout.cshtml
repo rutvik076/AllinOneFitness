@@ -25,12 +25,15 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Index">Manage User</a>
-                        </li>
-                        <li class="nav-item">
-                            <a asp-controller="DietPlan" asp-action="Index" class="nav-link text-dark">Add Diet Plan</a>
-                        </li>
+                        @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Index">Manage User</a>
+                            </li>
+                            <li class="nav-item">
+                                <a asp-controller="DietPlan" asp-action="Index" class="nav-link text-dark">Add Diet Plan</a>
+                            </li>
+                        }
                         <li class="nav-item">
                             <a asp-controller="UserDietPlan" asp-action="Index" class="nav-link text-dark">Diet Plan</a>
                         </li>
