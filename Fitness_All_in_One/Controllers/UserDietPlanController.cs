@@ -20,6 +20,13 @@ namespace Fitness_All_in_One.Controllers
         {
             var user = await _userManager.GetUserAsync(User);
 
+            if (user == null)
+            {
+                TempData["ErrorMessage"] = "You need to be logged in to view the diet plans.";
+                return View("Error");
+            }
+
+
             double weight = double.Parse(user.Weight);
             double height = double.Parse(user.Height) / 100.0; // convert height to meters
 
@@ -38,12 +45,13 @@ namespace Fitness_All_in_One.Controllers
 
             return View(userDetails);
         }
+
         public async Task<IActionResult> GeneratePlan()
-        {
+        { 
+
             // Get the current user's gender
             var user = await _userManager.GetUserAsync(User);
             var gender = user.Gender;
-            
 
             // Retrieve all diet plans from the database that match the user's gender
             var dietPlans = await _context.DietPlans
@@ -64,6 +72,7 @@ namespace Fitness_All_in_One.Controllers
             // Pass the list of diet plans to the view
             return View(dietPlans);
         }
+
 
 
 
