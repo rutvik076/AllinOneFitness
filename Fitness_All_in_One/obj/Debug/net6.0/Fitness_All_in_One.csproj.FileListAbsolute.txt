@@ -837,3 +837,7 @@ D:\sem6(21mca102)\Fitness_All_in_One\Fitness_All_in_One\Fitness_All_in_One\obj\D
 D:\sem6(21mca102)\Fitness_All_in_One\Fitness_All_in_One\Fitness_All_in_One\obj\Debug\net6.0\ref\Fitness_All_in_One.dll
 D:\sem6(21mca102)\Fitness_All_in_One\Fitness_All_in_One\Fitness_All_in_One\bin\Debug\net6.0\SendGrid.dll
 D:\sem6(21mca102)\Fitness_All_in_One\Fitness_All_in_One\Fitness_All_in_One\bin\Debug\net6.0\StarkbankEcdsa.dll
+D:\sem6(21mca102)\Fitness_All_in_One\Fitness_All_in_One\Fitness_All_in_One\bin\Debug\net6.0\MailKit.dll
+D:\sem6(21mca102)\Fitness_All_in_One\Fitness_All_in_One\Fitness_All_in_One\bin\Debug\net6.0\MimeKit.dll
+D:\sem6(21mca102)\Fitness_All_in_One\Fitness_All_in_One\Fitness_All_in_One\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+D:\sem6(21mca102)\Fitness_All_in_One\Fitness_All_in_One\Fitness_All_in_One\bin\Debug\net6.0\NETCore.MailKit.dll

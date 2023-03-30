@@ -35,6 +35,8 @@ namespace Fitness_All_in_One.Areas.Identity.Pages.Account
         [BindProperty]
         public InputModel Input { get; set; }
 
+
+
         /// <summary>
         ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
         ///     directly from your code. This API may change or be removed in future releases.
@@ -48,11 +50,13 @@ namespace Fitness_All_in_One.Areas.Identity.Pages.Account
             [Required]
             [EmailAddress]
             public string Email { get; set; }
+
+            public bool EmailSent { get; set; }
         }
 
         public async Task<IActionResult> OnPostAsync()
         {
-            if (ModelState.IsValid)
+            /*if (ModelState.IsValid)
             {
                 var user = await _userManager.FindByEmailAsync(Input.Email);
                 if (user == null || !(await _userManager.IsEmailConfirmedAsync(user)))
@@ -77,9 +81,27 @@ namespace Fitness_All_in_One.Areas.Identity.Pages.Account
                     $"Please reset your password by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
 
                 return RedirectToPage("./ForgotPasswordConfirmation");
+            }*/
+            
+           
+            {
+                if (ModelState.IsValid)
+                {
+                    // code here
+                    var user = await _userManager.FindByEmailAsync(Input.Email);
+                    if (user != null)
+                    {
+                        await _userManager.GeneratePasswordResetTokenAsync(user);
+                    }
+
+                    ModelState.Clear();
+                    Input.EmailSent = true;
+                }
+                return RedirectToPage("./ForgotPasswordConfirmation");
             }
 
             return Page();
         }
+    
     }
 }

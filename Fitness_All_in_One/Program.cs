@@ -6,8 +6,9 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using NETCore.MailKit.Core;
 using System.Configuration;
-using WebPWrecover.Services;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,10 +22,16 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultUI()
     .AddDefaultTokenProviders();
+builder.Services.Configure<SMTPConfigModel>(builder.Configuration.GetSection("SMTPConfig"));
+builder.Services.AddScoped<IEmailServices, EmailServices>();
+//builder.Services.Configure<AuthMessageSenderOptions>(builder.Configuration);
+builder.Services.Configure<IdentityOptions>(options =>
+{
+    options.SignIn.RequireConfirmedEmail = true;
 
-builder.Services.Configure<AuthMessageSenderOptions>(builder.Configuration.GetSection("AuthMessageSenderOptions"));
-builder.Services.AddTransient<IEmailSender, EmailSender>();
-
+   /* options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(20);
+    options.Lockout.MaxFailedAccessAttempts = 3;*/
+});
 
 var app = builder.Build();
 
