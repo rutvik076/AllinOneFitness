@@ -1,4 +1,4 @@
-﻿using Fitness_All_in_One.Models;
+﻿/*using Fitness_All_in_One.Models;
 using System.Threading.Tasks;
 
 
@@ -12,4 +12,4 @@ namespace Fitness_All_in_One.Services
 
         Task SendEmailForForgotPassword(UserEmailOptions userEmailOptions);
     }
-}
+}*/

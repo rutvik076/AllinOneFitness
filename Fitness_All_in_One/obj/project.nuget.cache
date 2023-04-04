@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HprQNfjSmXnc0GlbubpMkEvZ1VdnuPUTKU5Q0v/OjvwIm8kCuBlYEZR1Ck30dvK4ephA5AU+9B/FQcjREAMwXA==",
+  "dgSpecHash": "8joFtOqzyn15zhvDUWdI1vGAhBAQXy5WMWPYYxpprIPTGo2T+Avx5KN65kFylyDFtBnX7GfrUl32RkLGmCMEdA==",
   "success": true,
-  "projectFilePath": "D:\\sem6(21mca102)\\Fitness_All_in_One\\Fitness_All_in_One\\Fitness_All_in_One\\Fitness_All_in_One.csproj",
+  "projectFilePath": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\Fitness_All_in_One.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RUTVIK\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\RUTVIK\\.nuget\\packages\\mailkit\\3.6.0\\mailkit.3.6.0.nupkg.sha512",
