@@ -1,11 +1,6 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\Fitness_All_in_One",
-    "\\Fitness_All_in_One\\Views",
-    "\\Fitness_All_in_One\\Views\\DietPlan",
-    "\\Fitness_All_in_One\\Views\\Home"
+    ""
   ],
-  "SelectedNode": "\\Fitness_All_in_One\\Views\\Home\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }

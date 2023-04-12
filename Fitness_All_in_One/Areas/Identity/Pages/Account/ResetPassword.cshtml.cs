@@ -100,11 +100,20 @@ namespace Fitness_All_in_One.Areas.Identity.Pages.Account
             var user = await _userManager.FindByEmailAsync(Input.Email);
             if (user == null)
             {
-                // Don't reveal that the user does not exist
-                return RedirectToPage("./ResetPasswordConfirmation");
+                ModelState.AddModelError(string.Empty, "Invalid email address.");
+                return Page();
             }
 
             var token = await _userManager.GeneratePasswordResetTokenAsync(user);
+            var result = await _userManager.ResetPasswordAsync(user, token, Input.Password);
+            if (!result.Succeeded)
+            {
+                foreach (var error in result.Errors)
+                {
+                    ModelState.AddModelError(string.Empty, error.Description);
+                }
+                return Page();
+            }
             var callbackUrl = Url.Page(
                 "/Account/ResetPassword",
                 pageHandler: null,
@@ -116,7 +125,8 @@ namespace Fitness_All_in_One.Areas.Identity.Pages.Account
                 $"Please reset your password by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
 
             return RedirectToPage("./ResetPasswordConfirmation");
-           
+
         }
+
     }
 }

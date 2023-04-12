@@ -3,19 +3,110 @@
 @{
     ViewData["Title"] = "Edit User";
 }
-<style></style>
+<link rel="stylesheet" href="~/fonts/linearicons/style.css">
+<style>
+    .text-danger {
+        color: red;
+    }
+
+   
+
+    .image-1 {
+        position: absolute;
+        bottom: -12px;
+        right: -250px;
+        z-index: 99;
+    }
+
+    .form-holder {
+        position: relative;
+        margin-bottom: 21px;
+    }
+
+    .inner {
+        position: relative;
+        width: 435px;
+    }
+
+    button {
+        border: none;
+        width: 100%;
+        height: 49px;
+        margin-top: 50px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        background: #7FFFD4;
+        color: #999;
+        text-transform: uppercase;
+        font-family: "Muli-SemiBold";
+        font-size: 15px;
+        letter-spacing: 2px;
+        transition: all 0.5s;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .form-control {
+        border: none;
+        border-bottom: 1px solid #e6e6e6;
+        display: block;
+        width: 100%;
+        height: 38px;
+        background: none;
+        padding: 3px 42px 0px;
+        color: #666;
+    }
+
+        .form-control::-webkit-input-placeholder {
+            font-size: 14px;
+            font-family: "Muli-Regular";
+            color: #999;
+            transform: translateY(1px);
+        }
+
+        .form-control::-moz-placeholder {
+            font-size: 14px;
+            font-family: "Muli-Regular";
+            color: #999;
+            transform: translateY(1px);
+        }
+
+        .form-control:-ms-input-placeholder {
+            font-size: 14px;
+            font-family: "Muli-Regular";
+            color: #999;
+            transform: translateY(1px);
+        }
+
+        .form-control:-moz-placeholder {
+            font-size: 14px;
+            font-family: "Muli-Regular";
+            color: #999;
+            transform: translateY(1px);
+        }
+
+        .form-control:focus {
+            border-bottom: 1px solid #accffe;
+        }
+
+</style>
 
 <h1>Edit User</h1>
-
+<div class="wrapper">
+    <div class="inner">
+        <img src="~/images/image-1.png" alt="" class="image-1">
 <form asp-action="Edit" asp-route-id="@Model.Id" method="post">
     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-    <div class="form-floating mb-3">
-        <input asp-for="Name" class="form-control" autocomplete="Name" aria-required="true" placeholder="Name" />
-        <label asp-for="Name">Name</label>
+    <div class="form-holder">
+        <label><span class="lnr lnr-user"></span>Name</label>
+        <input asp-for="Name" class="form-control" autocomplete="Name" aria-required="true" placeholder="Name" />       
         <span asp-validation-for="Name" class="text-danger"></span>
 
     </div>
-    <div class="form-floating mb-3">
+            <div class="form-holder">
         <p>Enter your Gender?</p>
         <input asp-for="Gender" type="radio" value="female" autocomplete="Gender" aria-required="true" placeholder="Gender" /> Female
         <input asp-for="Gender" type="radio" value="male" autocomplete="Gender" aria-required="true" placeholder="Gender" /> Male
@@ -23,32 +114,36 @@
         <span asp-validation-for="Gender" class="text-danger"></span>
     </div>
     <br />
-    <div class="form-floating mb-3">
+            <div class="form-holder">
+                <label><span class="lnr lnr-heart"></span>Age</label>
         <input asp-for="Age" class="form-control" min="12" max="50" autocomplete="Age" aria-required="true" placeholder="Age" />
-        <label asp-for="Age">Age</label>
         <span asp-validation-for="Age" class="text-danger"></span>
     </div>
-    <div class="form-floating mb-3">
+            <div class="form-holder">
+                <label><span class="lnr lnr-poop"></span>Weight</label>
         <input asp-for="Weight" class="form-control" min="30" max="120" autocomplete="Weight " aria-required="true" placeholder="Weight " />
-        <label asp-for="Weight">Weight in Kg</label>
         <span asp-validation-for="Weight" class="text-danger"></span>
     </div>
-    <div class="form-floating mb-3">
+            <div class="form-holder">
+                <label><span class="lnr lnr-magic-wand"></span>Height</label>
         <input asp-for="Height" class="form-control" min="137" max="200" autocomplete="Height " aria-required="true" placeholder="Height" />
-        <label asp-for="Height">Height in cm</label>
         <span asp-validation-for="Height" class="text-danger"></span>
     </div>
-    <div class="form-floating mb-3">
+            <div class="form-holder">
+                <label><span class="lnr lnr-tag"></span>Target Weight</label>
         <input asp-for="TargetWeight" class="form-control" min="30" max="120" autocomplete="Target Weight " aria-required="true" placeholder="Target Weight" />
-        <label asp-for="TargetWeight">TargetWeight in Kg</label>
         <span asp-validation-for="TargetWeight" class="text-danger"></span>
     </div>
-    <div class="form-floating">
+            <div class="form-holder">
+                <label><span class="lnr lnr-envelope"></span>Email</label>
         <input asp-for="Email" class="form-control" autocomplete="username" aria-required="true" placeholder="Email" disabled/>
-        <label asp-for="Email"></label>
         <span asp-validation-for="Email" class="text-danger"></span>
     </div>
 
     <button type="submit" class="btn btn-primary">Save</button>
 
 </form>
+</div>
+</div>
+<script src="~/js/jquery-3.3.1.min.js"></script>
+<script src="~/js/main.js"></script>

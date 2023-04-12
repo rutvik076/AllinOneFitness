@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\Fitness_All_in_One.csproj": {}
+    "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\Fitness_All_in_One.csproj": {}
   },
   "projects": {
-    "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\Fitness_All_in_One.csproj": {
+    "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\Fitness_All_in_One.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\Fitness_All_in_One.csproj",
+        "projectUniqueName": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\Fitness_All_in_One.csproj",
         "projectName": "Fitness_All_in_One",
-        "projectPath": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\Fitness_All_in_One.csproj",
+        "projectPath": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\Fitness_All_in_One.csproj",
         "packagesPath": "C:\\Users\\RUTVIK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\obj\\",
+        "outputPath": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\RUTVIK\\AppData\\Roaming\\NuGet\\NuGet.Config",

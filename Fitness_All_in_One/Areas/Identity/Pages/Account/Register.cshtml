@@ -5,74 +5,112 @@
 }
 
 <h1>@ViewData["Title"]</h1>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>RegistrationForm_v10 by Colorlib</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<div class="row">
-    <div class="col-md-4">
-        <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
-            <h2>Create a new account.</h2>
-            <hr />
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-floating mb-3">
-                <input asp-for="Input.Name" class="form-control" autocomplete="Name" aria-required="true" placeholder="Name" />
-                <label asp-for="Input.Name">Name</label>
-                <span asp-validation-for="Input.Name" class="text-danger"></span>
+    <!-- LINEARICONS -->
+    <link rel="stylesheet" href="~/fonts/linearicons/style.css">
 
-            </div>
-            <div class="form-floating mb-3">
-                <p>Enter your Gender?</p>
-                <input asp-for="Input.Gender" type="radio" value="female" autocomplete="Gender" aria-required="true" placeholder="Gender" /> Female
-                <input asp-for="Input.Gender" type="radio" value="male" autocomplete="Gender" aria-required="true" placeholder="Gender" /> Male
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="~/css/style.css">
+    <style>
+        .field-validation-error {
+            color: red;
+        }
+
+        .input-validation-error {
+            border-color: red;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="inner">
+            <img src="~/images/image-1.png" alt="" class="image-1">
+            <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+                <h3>New Account?</h3>
+                <div asp-validation-summary="All" class="text-danger field-validation-error"></div>
+
+                <div class="form-holder">
+                    <span class="lnr lnr-user"></span>
+                    <input asp-for="Input.Name" class="form-control" autocomplete="Name" aria-required="true"  placeholder="Name" />                   
+                    <span asp-validation-for="Input.Name" class="text-danger input-validation-error"></span>
+                    
+                </div>
+                <div class="form-holder">
+                    <p>Enter your Gender?</p>
+                    <input asp-for="Input.Gender" type="radio" value="female" autocomplete="Gender" aria-required="true" placeholder="Gender" /> Female
+                    <input asp-for="Input.Gender" type="radio" value="male" autocomplete="Gender" aria-required="true" placeholder="Gender" /> Male
+                    <br />
+                    <span asp-validation-for="Input.Gender" class="text-danger input-validation-error"></span>
+                </div>
                 <br />
-                <span asp-validation-for="Input.Gender" class="text-danger"></span>
-            </div>
-            <br />
-            <div class="form-floating mb-3">
-                <input asp-for="Input.Age" class="form-control" min="12" max="50" autocomplete="Age" aria-required="true" placeholder="Age" />
-                <label asp-for="Input.Age">Age</label>
-                <span asp-validation-for="Input.Age" class="text-danger"></span>
-            </div>
-            <div class="form-floating mb-3">
-                <input asp-for="Input.Weight" class="form-control" min="30" max="120" autocomplete="Weight " aria-required="true" placeholder="Weight " />
-                <label asp-for="Input.Weight">Weight in Kg</label>
-                <span asp-validation-for="Input.Weight" class="text-danger"></span>
-            </div>
-            <div class="form-floating mb-3">
-                <input asp-for="Input.Height" class="form-control" min="137" max="200" autocomplete="Height " aria-required="true" placeholder="Height" />
-                <label asp-for="Input.Height">Height in cm</label>
-                <span asp-validation-for="Input.Height" class="text-danger"></span>
-            </div>
-            <div class="form-floating mb-3">
-                <input asp-for="Input.TargetWeight" class="form-control" min="30" max="120" autocomplete="Target Weight " aria-required="true" placeholder="Target Weight" />
-                <label asp-for="Input.TargetWeight">TargetWeight in Kg</label>
-                <span asp-validation-for="Input.TargetWeight" class="text-danger"></span>
-            </div>
-            <div class="form-floating">
-                <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="Email" />
-                <label asp-for="Input.Email"></label>
-                <span asp-validation-for="Input.Email" class="text-danger"></span>
-            </div>
-            <br />
-            <div class="form-floating">
-                <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" placeholder="Password" />
-                <label asp-for="Input.Password"></label>
-                <span asp-validation-for="Input.Password" class="text-danger"></span>
-            </div>
-            <br />
-            <div class="form-floating">
-                <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" placeholder="Confirm Password" />
-                <label asp-for="Input.ConfirmPassword"></label>
-                <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
-            </div>
-            <br />
-            <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
-        </form>
+                <div class="form-holder">
+                    <span class="lnr lnr-heart"></span>
+                    <input asp-for="Input.Age" class="form-control" min="12" max="50" autocomplete="Age" aria-required="true" placeholder="Age" />               
+                    <span asp-validation-for="Input.Age" class="text-danger input-validation-error"></span>
+                </div>
+                <div class="form-holder">
+                    <span class="lnr lnr-poop"></span>
+                    <input asp-for="Input.Weight" class="form-control" min="30" max="120" autocomplete="Weight " aria-required="true" placeholder="Weight " />   
+                    <span asp-validation-for="Input.Weight" class="text-danger input-validation-error"></span>
+                </div>
+                <div class="form-holder">
+                    <span class="lnr lnr-magic-wand"></span>
+                    <input asp-for="Input.Height" class="form-control" min="137" max="200" autocomplete="Height " aria-required="true" placeholder="Height" />                 
+                    <span asp-validation-for="Input.Height" class="text-danger input-validation-error"></span>
+
+                </div>
+                <div class="form-holder">
+                    <span class="lnr lnr-tag"></span>
+                    <input asp-for="Input.TargetWeight" class="form-control" min="30" max="120" autocomplete="Target Weight " aria-required="true" placeholder="Target Weight" />      
+                    <span asp-validation-for="Input.TargetWeight" class="text-danger input-validation-error"></span>
+
+                </div>
+                <div class="form-holder">
+                    <span class="lnr lnr-envelope"></span>
+                    <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="Email" />                   
+                    <span asp-validation-for="Input.Email" class="text-danger input-validation-error"></span>
+
+                </div>
+                <br />
+                <div class="form-holder">
+                    <span class="lnr lnr-lock"></span>
+                    <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" placeholder="Password" />
+                    <span asp-validation-for="Input.Password" class="text-danger input-validation-error"></span>
+
+                </div>
+                <br />
+                <div class="form-holder">
+                    <span class="lnr lnr-lock"></span>
+                    <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" placeholder="Confirm Password" />        
+                    <span asp-validation-for="Input.ConfirmPassword" class="text-danger input-validation-error"></span>
+                </div>
+                <button id="registerSubmit">
+                    <span>Register</span>
+                </button>
+            </form>
+            <img src="~/images/image-2.png" alt="" class="image-2">
+        </div>
+
     </div>
-    <div class="col-md-6 col-md-offset-2">
-        
-    </div>
-   
-</div>
+
+    <script src="~/js/jquery-3.3.1.min.js"></script>
+    <script src="~/js/main.js"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
 }
+
+
+
+

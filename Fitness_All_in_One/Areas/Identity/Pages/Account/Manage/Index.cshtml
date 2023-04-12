@@ -4,58 +4,171 @@
     ViewData["Title"] = "Profile";
     ViewData["ActivePage"] = ManageNavPages.Index;
 }
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- LINEARICONS -->
+    <link rel="stylesheet" href="~/fonts/linearicons/style.css">
+
+    <!-- STYLE CSS -->
+   @* <link rel="stylesheet" href="~/css/style.css">*@
+    <style>
+        .field-validation-error {
+            color: red;
+        }
+
+        .input-validation-error {
+            border-color: red;
+        }
+
+        .image-1 {
+            position: absolute;
+            bottom: -12px;
+            right: -250px;
+            z-index: 99;
+        }
+
+        .form-holder {
+            position: relative;
+            margin-bottom: 21px;
+        }
+
+        .inner {
+            position: relative;
+            width: 435px;
+        }
+
+        button {
+            border: none;
+            width: 100%;
+            height: 49px;
+            margin-top: 50px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+            background: #7FFFD4;
+            color: #999;
+            text-transform: uppercase;
+            font-family: "Muli-SemiBold";
+            font-size: 15px;
+            letter-spacing: 2px;
+            transition: all 0.5s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .form-control {
+            border: none;
+            border-bottom: 1px solid #e6e6e6;
+            display: block;
+            width: 100%;
+            height: 38px;
+            background: none;
+            padding: 3px 42px 0px;
+            color: #666;
+            
+        }
+
+            .form-control::-webkit-input-placeholder {
+                font-size: 14px;
+                font-family: "Muli-Regular";
+                color: #999;
+                transform: translateY(1px);
+            }
+
+            .form-control::-moz-placeholder {
+                font-size: 14px;
+                font-family: "Muli-Regular";
+                color: #999;
+                transform: translateY(1px);
+            }
+
+            .form-control:-ms-input-placeholder {
+                font-size: 14px;
+                font-family: "Muli-Regular";
+                color: #999;
+                transform: translateY(1px);
+            }
+
+            .form-control:-moz-placeholder {
+                font-size: 14px;
+                font-family: "Muli-Regular";
+                color: #999;
+                transform: translateY(1px);
+            }
+
+            .form-control:focus {
+                border-bottom: 1px solid #accffe;
+            }
+
+     
+    </style>
+</head>
+<body>
 <h3>@ViewData["Title"]</h3>
 <partial name="_StatusMessage" for="StatusMessage" />
-<div class="row">
-    <div class="col-md-6">
+<div class="wrapper">
+    <div class="inner">
+        <img src="~/images/image-1.png" alt="" class="image-1">
         <form id="profile-form" method="post">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-floating mb-3">
-                <input asp-for="Username" class="form-control" placeholder="Please choose your username." disabled />
-                <label asp-for="Username" class="form-label"></label>
-            </div>
-            <div class="form-floating mb-3">
-                <input asp-for="Input.Name" class="form-control" placeholder="Please choose your Name." />
-                <label asp-for="Input.Name" class="form-label"></label>
-            </div>
-            <div class="form-floating mb-3">
-                <p>Enter your Gender?</p>
-                <input asp-for="Input.Gender" type="radio" value="female" autocomplete="Gender" aria-required="true" placeholder="Gender" /> Female
-                <input asp-for="Input.Gender" type="radio" value="male" autocomplete="Gender" aria-required="true" placeholder="Gender" /> Male
-                <br />
-                <span asp-validation-for="Input.Gender" class="text-danger"></span>
-            </div>
-            <br />
-            <div class="form-floating mb-3">
-                <input asp-for="Input.Age" class="form-control" min="12" max="50" placeholder="Please choose your Age." />
-                <label asp-for="Input.Age" class="form-label"></label>
-            </div>
-            <div class="form-floating mb-3">
-                <input asp-for="Input.Weight" class="form-control" min="30" max="120" placeholder="Please choose your Weight." />
-                <label asp-for="Input.Weight" class="form-label">Weight in Kg</label>
-            </div>
-            <div class="form-floating mb-3">
-                <input asp-for="Input.Height" class="form-control" min="137" max="200" placeholder="Please choose your Height." />
-                <label asp-for="Input.Height" class="form-label">Height in cm</label>
-            </div>
-            <div class="form-floating mb-3">
-                <input asp-for="Input.TargetWeight" class="form-control" min="30" max="120" placeholder="Please choose your TargetWeight." />
-                <label asp-for="Input.TargetWeight" class="form-label">TargetWeight in Kg</label>
+            <div asp-validation-summary="All" class="text-danger field-validation-error"></div>
+                <div class="form-holder">
+                    <label><span class="lnr lnr-user"></span>Name</label>
+                    <input asp-for="Input.Name" class="form-control" autocomplete="Name" aria-required="true" placeholder="Name" />
+                    <span asp-validation-for="Input.Name" class="text-danger input-validation-error"></span>
 
-            </div>
-           
-            <div class="form-floating mb-3">
-                <input asp-for="Input.PhoneNumber" class="form-control" placeholder="Please enter your phone number." />
-                <label asp-for="Input.PhoneNumber" class="form-label"></label>
-                <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
-            </div>
+                </div>
+                <div class="form-holder">
+                    <p>Enter your Gender?</p>
+                    <input asp-for="Input.Gender" type="radio" value="female" autocomplete="Gender" aria-required="true" placeholder="Gender" /> Female
+                    <input asp-for="Input.Gender" type="radio" value="male" autocomplete="Gender" aria-required="true" placeholder="Gender" /> Male
+                    <br />
+                    <span asp-validation-for="Input.Gender" class="text-danger input-validation-error"></span>
+                </div>
+                <br />
+                <div class="form-holder">
+                    <label><span class="lnr lnr-heart"></span>Age</label>
+                    <input asp-for="Input.Age" class="form-control" min="12" max="50" autocomplete="Age" aria-required="true" placeholder="Age" />
+                    <span asp-validation-for="Input.Age" class="text-danger input-validation-error"></span>
+                </div>
+                <div class="form-holder">
+                    <label><span class="lnr lnr-poop"></span>Weight</label>
+                    <input asp-for="Input.Weight" class="form-control" min="30" max="120" autocomplete="Weight " aria-required="true" placeholder="Weight " />
+                    <span asp-validation-for="Input.Weight" class="text-danger input-validation-error"></span>
+                </div>
+                <div class="form-holder">
+                    <label><span class="lnr lnr-magic-wand"></span>Height</label>
+                    <input asp-for="Input.Height" class="form-control" min="137" max="200" autocomplete="Height " aria-required="true" placeholder="Height" />
+                    <span asp-validation-for="Input.Height" class="text-danger input-validation-error"></span>
+
+                </div>
+                <div class="form-holder">
+                    <label><span class="lnr lnr-tag"></span>Target Weight</label>
+                    <input asp-for="Input.TargetWeight" class="form-control" min="30" max="120" autocomplete="Target Weight " aria-required="true" placeholder="Target Weight" />
+                    <span asp-validation-for="Input.TargetWeight" class="text-danger input-validation-error"></span>
+
+                </div>
+                <div class="form-holder">
+                    <label for="phonenumber"> <span class="lnr lnr-phone"></span>Phone Number</label>
+                     <input asp-for="Input.PhoneNumber" class="form-control" placeholder="Please enter your phone number." />
+                    <span asp-validation-for="Input.PhoneNumber" class="text-danger input-validation-error"></span>
+                </div>
 
             <button id="update-profile-button" type="submit" class="w-100 btn btn-lg btn-primary">Save</button>
         </form>
     </div>
 </div>
-
+<script src="~/js/jquery-3.3.1.min.js"></script>
+<script src="~/js/main.js"></script>
+</body>
+</html>
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
 }
+                
+                
+                

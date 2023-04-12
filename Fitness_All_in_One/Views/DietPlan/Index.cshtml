@@ -1,12 +1,17 @@
 ﻿@model IEnumerable<DietPlanModel>
 
 <h1>Diet Plans</h1>
+<style>
+    .alert{
+        background: #7FFFD4;
+    }
+</style>
 
 <a asp-action="Create">Create New Diet Plan</a>
 <link href="https://cdn.datatables.net/1.13.2/css/jquery.dataTables.min.css" rel="stylesheet" />
 @if (TempData["Message"] != null)
 {
-    <div class="alert alert-success" role="alert">
+    <div class="alert " role="alert">
         @TempData["Message"]
     </div>
 }

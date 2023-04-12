@@ -1,248 +1,2400 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Fitness_All_in_One.bundle.scp.css",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Fitness_All_in_One.bundle.scp.css",
       "PackagePath": "staticwebassets\\Fitness_All_in_One.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\.DS_Store",
+      "PackagePath": "staticwebassets\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\._about.html",
+      "PackagePath": "staticwebassets\\__MACOSX\\._about.html"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\._contact.html",
+      "PackagePath": "staticwebassets\\__MACOSX\\._contact.html"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\._dummy",
+      "PackagePath": "staticwebassets\\__MACOSX\\._dummy"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\._fonts",
+      "PackagePath": "staticwebassets\\__MACOSX\\._fonts"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\._images",
+      "PackagePath": "staticwebassets\\__MACOSX\\._images"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\._index.html",
+      "PackagePath": "staticwebassets\\__MACOSX\\._index.html"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\._js",
+      "PackagePath": "staticwebassets\\__MACOSX\\._js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\._offer.html",
+      "PackagePath": "staticwebassets\\__MACOSX\\._offer.html"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\._recipe.html",
+      "PackagePath": "staticwebassets\\__MACOSX\\._recipe.html"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\._sass",
+      "PackagePath": "staticwebassets\\__MACOSX\\._sass"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\._single.html",
+      "PackagePath": "staticwebassets\\__MACOSX\\._single.html"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\._style.css",
+      "PackagePath": "staticwebassets\\__MACOSX\\._style.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\._style.css.map",
+      "PackagePath": "staticwebassets\\__MACOSX\\._style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\dummy\\._avatar-1.jpg",
+      "PackagePath": "staticwebassets\\__MACOSX\\dummy\\._avatar-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\dummy\\._avatar-1@2x.jpg",
+      "PackagePath": "staticwebassets\\__MACOSX\\dummy\\._avatar-1@2x.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\dummy\\._avatar-2.jpg",
+      "PackagePath": "staticwebassets\\__MACOSX\\dummy\\._avatar-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\dummy\\._avatar-2@2x.jpg",
+      "PackagePath": "staticwebassets\\__MACOSX\\dummy\\._avatar-2@2x.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\dummy\\._avatar-3.jpg",
+      "PackagePath": "staticwebassets\\__MACOSX\\dummy\\._avatar-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\dummy\\._avatar-3@2x.jpg",
+      "PackagePath": "staticwebassets\\__MACOSX\\dummy\\._avatar-3@2x.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\dummy\\._cooking.png",
+      "PackagePath": "staticwebassets\\__MACOSX\\dummy\\._cooking.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\dummy\\._cooking@2x.png",
+      "PackagePath": "staticwebassets\\__MACOSX\\dummy\\._cooking@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\dummy\\._food-1.jpg",
+      "PackagePath": "staticwebassets\\__MACOSX\\dummy\\._food-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\dummy\\._food-1@2x.jpg",
+      "PackagePath": "staticwebassets\\__MACOSX\\dummy\\._food-1@2x.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\dummy\\._food-2.jpg",
+      "PackagePath": "staticwebassets\\__MACOSX\\dummy\\._food-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\dummy\\._food-2@2x.jpg",
+      "PackagePath": "staticwebassets\\__MACOSX\\dummy\\._food-2@2x.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\dummy\\._food-3.jpg",
+      "PackagePath": "staticwebassets\\__MACOSX\\dummy\\._food-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\dummy\\._food-3@2x.jpg",
+      "PackagePath": "staticwebassets\\__MACOSX\\dummy\\._food-3@2x.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\dummy\\._food-4.jpg",
+      "PackagePath": "staticwebassets\\__MACOSX\\dummy\\._food-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\dummy\\._food-4@2x.jpg",
+      "PackagePath": "staticwebassets\\__MACOSX\\dummy\\._food-4@2x.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\dummy\\._food-5.jpg",
+      "PackagePath": "staticwebassets\\__MACOSX\\dummy\\._food-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\dummy\\._food-5@2x.jpg",
+      "PackagePath": "staticwebassets\\__MACOSX\\dummy\\._food-5@2x.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\dummy\\._fruits.png",
+      "PackagePath": "staticwebassets\\__MACOSX\\dummy\\._fruits.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\dummy\\._fruits@2x.png",
+      "PackagePath": "staticwebassets\\__MACOSX\\dummy\\._fruits@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\dummy\\._person.jpg",
+      "PackagePath": "staticwebassets\\__MACOSX\\dummy\\._person.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\dummy\\._person@2x.jpg",
+      "PackagePath": "staticwebassets\\__MACOSX\\dummy\\._person@2x.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\dummy\\._restaurant.png",
+      "PackagePath": "staticwebassets\\__MACOSX\\dummy\\._restaurant.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\dummy\\._restaurant@2x.png",
+      "PackagePath": "staticwebassets\\__MACOSX\\dummy\\._restaurant@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\dummy\\._single-food.jpg",
+      "PackagePath": "staticwebassets\\__MACOSX\\dummy\\._single-food.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\dummy\\._single-food@2x.jpg",
+      "PackagePath": "staticwebassets\\__MACOSX\\dummy\\._single-food@2x.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\dummy\\._vegetables.png",
+      "PackagePath": "staticwebassets\\__MACOSX\\dummy\\._vegetables.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\dummy\\._vegetables@2x.png",
+      "PackagePath": "staticwebassets\\__MACOSX\\dummy\\._vegetables@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\fonts\\._FontAwesome.otf",
+      "PackagePath": "staticwebassets\\__MACOSX\\fonts\\._FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\fonts\\._font-awesome.min.css",
+      "PackagePath": "staticwebassets\\__MACOSX\\fonts\\._font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\fonts\\._fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\__MACOSX\\fonts\\._fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\fonts\\._fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\__MACOSX\\fonts\\._fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\fonts\\._fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\__MACOSX\\fonts\\._fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\fonts\\._fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\__MACOSX\\fonts\\._fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\fonts\\._icomoon.eot",
+      "PackagePath": "staticwebassets\\__MACOSX\\fonts\\._icomoon.eot"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\fonts\\._icomoon.svg",
+      "PackagePath": "staticwebassets\\__MACOSX\\fonts\\._icomoon.svg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\fonts\\._icomoon.ttf",
+      "PackagePath": "staticwebassets\\__MACOSX\\fonts\\._icomoon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\fonts\\._icomoon.woff",
+      "PackagePath": "staticwebassets\\__MACOSX\\fonts\\._icomoon.woff"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\fonts\\._iconmoon.css",
+      "PackagePath": "staticwebassets\\__MACOSX\\fonts\\._iconmoon.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\images\\._icon-baby.png",
+      "PackagePath": "staticwebassets\\__MACOSX\\images\\._icon-baby.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\images\\._icon-baby@2x.png",
+      "PackagePath": "staticwebassets\\__MACOSX\\images\\._icon-baby@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\images\\._icon-clock.png",
+      "PackagePath": "staticwebassets\\__MACOSX\\images\\._icon-clock.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\images\\._icon-clock@2x.png",
+      "PackagePath": "staticwebassets\\__MACOSX\\images\\._icon-clock@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\images\\._icon-comment.png",
+      "PackagePath": "staticwebassets\\__MACOSX\\images\\._icon-comment.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\images\\._icon-comment@2x.png",
+      "PackagePath": "staticwebassets\\__MACOSX\\images\\._icon-comment@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\images\\._icon-envelope.png",
+      "PackagePath": "staticwebassets\\__MACOSX\\images\\._icon-envelope.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\images\\._icon-envelope@2x.png",
+      "PackagePath": "staticwebassets\\__MACOSX\\images\\._icon-envelope@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\images\\._icon-heart.png",
+      "PackagePath": "staticwebassets\\__MACOSX\\images\\._icon-heart.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\images\\._icon-heart@2x.png",
+      "PackagePath": "staticwebassets\\__MACOSX\\images\\._icon-heart@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\images\\._icon-map-marker-alt.png",
+      "PackagePath": "staticwebassets\\__MACOSX\\images\\._icon-map-marker-alt.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\images\\._icon-map-marker-alt@2x.png",
+      "PackagePath": "staticwebassets\\__MACOSX\\images\\._icon-map-marker-alt@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\images\\._icon-map-marker.png",
+      "PackagePath": "staticwebassets\\__MACOSX\\images\\._icon-map-marker.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\images\\._icon-map-marker@2x.png",
+      "PackagePath": "staticwebassets\\__MACOSX\\images\\._icon-map-marker@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\images\\._icon-phone.png",
+      "PackagePath": "staticwebassets\\__MACOSX\\images\\._icon-phone.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\images\\._icon-phone@2x.png",
+      "PackagePath": "staticwebassets\\__MACOSX\\images\\._icon-phone@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\images\\._icon-pie-chart.png",
+      "PackagePath": "staticwebassets\\__MACOSX\\images\\._icon-pie-chart.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\images\\._icon-pie-chart@2x.png",
+      "PackagePath": "staticwebassets\\__MACOSX\\images\\._icon-pie-chart@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\images\\._icon-time.png",
+      "PackagePath": "staticwebassets\\__MACOSX\\images\\._icon-time.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\images\\._icon-time@2x.png",
+      "PackagePath": "staticwebassets\\__MACOSX\\images\\._icon-time@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\images\\._icon-user.png",
+      "PackagePath": "staticwebassets\\__MACOSX\\images\\._icon-user.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\images\\._icon-user@2x.png",
+      "PackagePath": "staticwebassets\\__MACOSX\\images\\._icon-user@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\images\\._map-marker.png",
+      "PackagePath": "staticwebassets\\__MACOSX\\images\\._map-marker.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\images\\._map-marker@2x.png",
+      "PackagePath": "staticwebassets\\__MACOSX\\images\\._map-marker@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\js\\._app.js",
+      "PackagePath": "staticwebassets\\__MACOSX\\js\\._app.js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\js\\._ie-support",
+      "PackagePath": "staticwebassets\\__MACOSX\\js\\._ie-support"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\js\\._jquery-1.11.1.min.js",
+      "PackagePath": "staticwebassets\\__MACOSX\\js\\._jquery-1.11.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\js\\._jquery-1.11.1.min.map",
+      "PackagePath": "staticwebassets\\__MACOSX\\js\\._jquery-1.11.1.min.map"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\js\\._min",
+      "PackagePath": "staticwebassets\\__MACOSX\\js\\._min"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\js\\._plugins.js",
+      "PackagePath": "staticwebassets\\__MACOSX\\js\\._plugins.js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\js\\ie-support\\._html5.js",
+      "PackagePath": "staticwebassets\\__MACOSX\\js\\ie-support\\._html5.js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\js\\ie-support\\._pie.htc",
+      "PackagePath": "staticwebassets\\__MACOSX\\js\\ie-support\\._pie.htc"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\js\\ie-support\\._respond.js",
+      "PackagePath": "staticwebassets\\__MACOSX\\js\\ie-support\\._respond.js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\js\\min\\._app-min.js",
+      "PackagePath": "staticwebassets\\__MACOSX\\js\\min\\._app-min.js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\js\\min\\._plugins-min.js",
+      "PackagePath": "staticwebassets\\__MACOSX\\js\\min\\._plugins-min.js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\sass\\._layout",
+      "PackagePath": "staticwebassets\\__MACOSX\\sass\\._layout"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\sass\\._libs",
+      "PackagePath": "staticwebassets\\__MACOSX\\sass\\._libs"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\sass\\._pages",
+      "PackagePath": "staticwebassets\\__MACOSX\\sass\\._pages"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\sass\\._style.scss",
+      "PackagePath": "staticwebassets\\__MACOSX\\sass\\._style.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\sass\\layout\\.__content.scss",
+      "PackagePath": "staticwebassets\\__MACOSX\\sass\\layout\\.__content.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\sass\\layout\\.__footer.scss",
+      "PackagePath": "staticwebassets\\__MACOSX\\sass\\layout\\.__footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\sass\\layout\\.__header.scss",
+      "PackagePath": "staticwebassets\\__MACOSX\\sass\\layout\\.__header.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\sass\\libs\\.__components.scss",
+      "PackagePath": "staticwebassets\\__MACOSX\\sass\\libs\\.__components.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\sass\\libs\\.__global.scss",
+      "PackagePath": "staticwebassets\\__MACOSX\\sass\\libs\\.__global.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\sass\\libs\\.__mixins.scss",
+      "PackagePath": "staticwebassets\\__MACOSX\\sass\\libs\\.__mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\sass\\libs\\.__normalize.scss",
+      "PackagePath": "staticwebassets\\__MACOSX\\sass\\libs\\.__normalize.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\sass\\libs\\.__settings.scss",
+      "PackagePath": "staticwebassets\\__MACOSX\\sass\\libs\\.__settings.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\sass\\libs\\._bootstrap-grid",
+      "PackagePath": "staticwebassets\\__MACOSX\\sass\\libs\\._bootstrap-grid"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\sass\\libs\\bootstrap-grid\\.__grid.scss",
+      "PackagePath": "staticwebassets\\__MACOSX\\sass\\libs\\bootstrap-grid\\.__grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\sass\\libs\\bootstrap-grid\\.__mixins.scss",
+      "PackagePath": "staticwebassets\\__MACOSX\\sass\\libs\\bootstrap-grid\\.__mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\__MACOSX\\sass\\libs\\bootstrap-grid\\.__settings.scss",
+      "PackagePath": "staticwebassets\\__MACOSX\\sass\\libs\\bootstrap-grid\\.__settings.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\css\\login.css",
+      "PackagePath": "staticwebassets\\backup\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\css\\site.css",
+      "PackagePath": "staticwebassets\\backup\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\js\\login.js",
+      "PackagePath": "staticwebassets\\backup\\js\\login.js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\js\\site.js",
+      "PackagePath": "staticwebassets\\backup\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\backup\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\backup\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\backup\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\backup\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\backup\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\backup\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\backup\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\backup\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\backup\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\backup\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\backup\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\backup\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\backup\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\backup\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\css\\.DS_Store",
+      "PackagePath": "staticwebassets\\css\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\css\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\css\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\css\\animate.css",
+      "PackagePath": "staticwebassets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\css\\bootstrap-datepicker.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-datepicker.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\css\\bootstrap\\.DS_Store",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\css\\bootstrap\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\css\\bootstrap\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\css\\css\\.DS_Store",
+      "PackagePath": "staticwebassets\\css\\css\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\css\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\css\\css\\mixins\\_text-hide.css",
+      "PackagePath": "staticwebassets\\css\\css\\mixins\\_text-hide.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\css\\flaticon.css",
+      "PackagePath": "staticwebassets\\css\\flaticon.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\css\\jquery.timepicker.css",
+      "PackagePath": "staticwebassets\\css\\jquery.timepicker.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\css\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\css\\style.scss",
+      "PackagePath": "staticwebassets\\css\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\css\\stylehome.css",
+      "PackagePath": "staticwebassets\\css\\stylehome.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\css\\util.css",
+      "PackagePath": "staticwebassets\\css\\util.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\dummy\\avatar-1.jpg",
+      "PackagePath": "staticwebassets\\dummy\\avatar-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\dummy\\avatar-1@2x.jpg",
+      "PackagePath": "staticwebassets\\dummy\\avatar-1@2x.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\dummy\\avatar-2.jpg",
+      "PackagePath": "staticwebassets\\dummy\\avatar-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\dummy\\avatar-2@2x.jpg",
+      "PackagePath": "staticwebassets\\dummy\\avatar-2@2x.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\dummy\\avatar-3.jpg",
+      "PackagePath": "staticwebassets\\dummy\\avatar-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\dummy\\avatar-3@2x.jpg",
+      "PackagePath": "staticwebassets\\dummy\\avatar-3@2x.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\dummy\\cooking@2x - Copy.png",
+      "PackagePath": "staticwebassets\\dummy\\cooking@2x - Copy.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\dummy\\food-1.jpg",
+      "PackagePath": "staticwebassets\\dummy\\food-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\dummy\\food-1@2x.jpg",
+      "PackagePath": "staticwebassets\\dummy\\food-1@2x.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\dummy\\food-2.jpg",
+      "PackagePath": "staticwebassets\\dummy\\food-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\dummy\\food-2@2x.jpg",
+      "PackagePath": "staticwebassets\\dummy\\food-2@2x.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\dummy\\food-3.jpg",
+      "PackagePath": "staticwebassets\\dummy\\food-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\dummy\\food-3@2x.jpg",
+      "PackagePath": "staticwebassets\\dummy\\food-3@2x.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\dummy\\food-4.jpg",
+      "PackagePath": "staticwebassets\\dummy\\food-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\dummy\\food-4@2x.jpg",
+      "PackagePath": "staticwebassets\\dummy\\food-4@2x.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\dummy\\food-5.jpg",
+      "PackagePath": "staticwebassets\\dummy\\food-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\dummy\\food-5@2x.jpg",
+      "PackagePath": "staticwebassets\\dummy\\food-5@2x.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\dummy\\fruits.png",
+      "PackagePath": "staticwebassets\\dummy\\fruits.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\dummy\\fruits@2x - Copy.png",
+      "PackagePath": "staticwebassets\\dummy\\fruits@2x - Copy.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\dummy\\fruits@2x.png",
+      "PackagePath": "staticwebassets\\dummy\\fruits@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\dummy\\output-onlinejpgtools.png",
+      "PackagePath": "staticwebassets\\dummy\\output-onlinejpgtools.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\dummy\\person.jpg",
+      "PackagePath": "staticwebassets\\dummy\\person.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\dummy\\person@2x - Copy.jpg",
+      "PackagePath": "staticwebassets\\dummy\\person@2x - Copy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\dummy\\person@2x.jpg",
+      "PackagePath": "staticwebassets\\dummy\\person@2x.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\dummy\\restaurant.png",
+      "PackagePath": "staticwebassets\\dummy\\restaurant.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\dummy\\restaurant@2x - Copy.png",
+      "PackagePath": "staticwebassets\\dummy\\restaurant@2x - Copy.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\dummy\\single-food.jpg",
+      "PackagePath": "staticwebassets\\dummy\\single-food.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\dummy\\single-food@2x.jpg",
+      "PackagePath": "staticwebassets\\dummy\\single-food@2x.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\dummy\\vegetables.png",
+      "PackagePath": "staticwebassets\\dummy\\vegetables.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\dummy\\vegetables@2x - Copy.png",
+      "PackagePath": "staticwebassets\\dummy\\vegetables@2x - Copy.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\dummy\\vegetables@2x.png",
+      "PackagePath": "staticwebassets\\dummy\\vegetables@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\.DS_Store",
+      "PackagePath": "staticwebassets\\fonts\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\el_messiri\\ElMessiri-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\el_messiri\\ElMessiri-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\el_messiri\\OFL.txt",
+      "PackagePath": "staticwebassets\\fonts\\el_messiri\\OFL.txt"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\flaticon\\.DS_Store",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\flaticon\\backup.txt",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\backup.txt"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\flaticon\\font\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\font\\Flaticon.eot"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\flaticon\\font\\Flaticon.svg",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\font\\Flaticon.svg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\flaticon\\font\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\font\\Flaticon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\flaticon\\font\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\font\\Flaticon.woff"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\flaticon\\font\\Flaticon.woff2",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\font\\Flaticon.woff2"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\flaticon\\font\\_flaticon.scss",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\font\\_flaticon.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\flaticon\\font\\flaticon.css",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\font\\flaticon.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\flaticon\\font\\flaticon.html",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\font\\flaticon.html"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\flaticon\\license\\license.pdf",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\license\\license.pdf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\font-awesome-4.7.0\\HELP-US-OUT.txt",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\HELP-US-OUT.txt"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\font-awesome-4.7.0\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\font-awesome-4.7.0\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\font-awesome-4.7.0\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\animated.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\animated.less"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\bordered-pulled.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\bordered-pulled.less"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\core.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\core.less"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\fixed-width.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\fixed-width.less"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\font-awesome.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\font-awesome.less"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\icons.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\icons.less"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\larger.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\larger.less"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\list.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\list.less"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\mixins.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\mixins.less"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\path.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\path.less"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\rotated-flipped.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\rotated-flipped.less"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\screen-reader.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\screen-reader.less"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\stacked.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\stacked.less"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\variables.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\variables.less"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_animated.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_animated.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_core.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_core.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_fixed-width.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_fixed-width.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_icons.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_larger.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_larger.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_list.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_list.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_path.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_path.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_screen-reader.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_stacked.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_stacked.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\font-awesome.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\font-awesome.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\icomoon.eot",
+      "PackagePath": "staticwebassets\\fonts\\icomoon.eot"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\icomoon.svg",
+      "PackagePath": "staticwebassets\\fonts\\icomoon.svg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\icomoon.ttf",
+      "PackagePath": "staticwebassets\\fonts\\icomoon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\icomoon.woff",
+      "PackagePath": "staticwebassets\\fonts\\icomoon.woff"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\iconmoon.css",
+      "PackagePath": "staticwebassets\\fonts\\iconmoon.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\linearicons\\Read Me.txt",
+      "PackagePath": "staticwebassets\\fonts\\linearicons\\Read Me.txt"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\linearicons\\fonts\\Linearicons-Free.eot",
+      "PackagePath": "staticwebassets\\fonts\\linearicons\\fonts\\Linearicons-Free.eot"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\linearicons\\fonts\\Linearicons-Free.svg",
+      "PackagePath": "staticwebassets\\fonts\\linearicons\\fonts\\Linearicons-Free.svg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\linearicons\\fonts\\Linearicons-Free.ttf",
+      "PackagePath": "staticwebassets\\fonts\\linearicons\\fonts\\Linearicons-Free.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\linearicons\\fonts\\Linearicons-Free.woff",
+      "PackagePath": "staticwebassets\\fonts\\linearicons\\fonts\\Linearicons-Free.woff"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\linearicons\\fonts\\Linearicons-Free.woff2",
+      "PackagePath": "staticwebassets\\fonts\\linearicons\\fonts\\Linearicons-Free.woff2"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\linearicons\\selection.json",
+      "PackagePath": "staticwebassets\\fonts\\linearicons\\selection.json"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\linearicons\\style.css",
+      "PackagePath": "staticwebassets\\fonts\\linearicons\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\material-design-iconic-font\\css\\material-design-iconic-font.css",
+      "PackagePath": "staticwebassets\\fonts\\material-design-iconic-font\\css\\material-design-iconic-font.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\material-design-iconic-font\\css\\material-design-iconic-font.min.css",
+      "PackagePath": "staticwebassets\\fonts\\material-design-iconic-font\\css\\material-design-iconic-font.min.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.eot",
+      "PackagePath": "staticwebassets\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.eot"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.svg",
+      "PackagePath": "staticwebassets\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.svg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.ttf",
+      "PackagePath": "staticwebassets\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.woff",
+      "PackagePath": "staticwebassets\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.woff"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.woff2",
+      "PackagePath": "staticwebassets\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.woff2"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\montserrat\\Montserrat-Black.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\montserrat\\Montserrat-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-BlackItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\montserrat\\Montserrat-Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\montserrat\\Montserrat-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\montserrat\\Montserrat-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-ExtraBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\montserrat\\Montserrat-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\montserrat\\Montserrat-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-ExtraLight.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\montserrat\\Montserrat-ExtraLightItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-ExtraLightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\montserrat\\Montserrat-Italic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\montserrat\\Montserrat-Light.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\montserrat\\Montserrat-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-LightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\montserrat\\Montserrat-Medium.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\montserrat\\Montserrat-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-MediumItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\montserrat\\Montserrat-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\montserrat\\Montserrat-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\montserrat\\Montserrat-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\montserrat\\Montserrat-Thin.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-Thin.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\montserrat\\Montserrat-ThinItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-ThinItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\montserrat\\OFL.txt",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\OFL.txt"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\muli\\Muli-Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\muli\\Muli-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\muli\\Muli-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\muli\\Muli-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\muli\\Muli-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\muli\\Muli-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\poppins\\Poppins-Black.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\poppins\\Poppins-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-BlackItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\poppins\\Poppins-Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\poppins\\Poppins-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\poppins\\Poppins-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-ExtraBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\poppins\\Poppins-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\poppins\\Poppins-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-ExtraLight.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\poppins\\Poppins-ExtraLightItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-ExtraLightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\poppins\\Poppins-Italic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\poppins\\Poppins-Light.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\poppins\\Poppins-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-LightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\poppins\\Poppins-Medium.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\poppins\\Poppins-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-MediumItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\poppins\\Poppins-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\poppins\\Poppins-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\poppins\\Poppins-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\poppins\\Poppins-Thin.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-Thin.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\fonts\\poppins\\Poppins-ThinItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-ThinItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\.DS_Store",
+      "PackagePath": "staticwebassets\\images\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\bg-registration-form-6.jpg",
+      "PackagePath": "staticwebassets\\images\\bg-registration-form-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\bg_1.jpg",
+      "PackagePath": "staticwebassets\\images\\bg_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\bg_2.jpg",
+      "PackagePath": "staticwebassets\\images\\bg_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\bg_3.jpg",
+      "PackagePath": "staticwebassets\\images\\bg_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\coach-1.jpg",
+      "PackagePath": "staticwebassets\\images\\coach-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\icon-baby.png",
+      "PackagePath": "staticwebassets\\images\\icon-baby.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\icon-baby@2x.png",
+      "PackagePath": "staticwebassets\\images\\icon-baby@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\icon-clock.png",
+      "PackagePath": "staticwebassets\\images\\icon-clock.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\icon-clock@2x.png",
+      "PackagePath": "staticwebassets\\images\\icon-clock@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\icon-comment.png",
+      "PackagePath": "staticwebassets\\images\\icon-comment.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\icon-comment@2x.png",
+      "PackagePath": "staticwebassets\\images\\icon-comment@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\icon-envelope.png",
+      "PackagePath": "staticwebassets\\images\\icon-envelope.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\icon-envelope@2x.png",
+      "PackagePath": "staticwebassets\\images\\icon-envelope@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\icon-heart.png",
+      "PackagePath": "staticwebassets\\images\\icon-heart.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\icon-heart@2x.png",
+      "PackagePath": "staticwebassets\\images\\icon-heart@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\icon-map-marker-alt.png",
+      "PackagePath": "staticwebassets\\images\\icon-map-marker-alt.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\icon-map-marker-alt@2x.png",
+      "PackagePath": "staticwebassets\\images\\icon-map-marker-alt@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\icon-map-marker.png",
+      "PackagePath": "staticwebassets\\images\\icon-map-marker.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\icon-map-marker@2x.png",
+      "PackagePath": "staticwebassets\\images\\icon-map-marker@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\icon-phone.png",
+      "PackagePath": "staticwebassets\\images\\icon-phone.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\icon-phone@2x.png",
+      "PackagePath": "staticwebassets\\images\\icon-phone@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\icon-pie-chart.png",
+      "PackagePath": "staticwebassets\\images\\icon-pie-chart.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\icon-pie-chart@2x.png",
+      "PackagePath": "staticwebassets\\images\\icon-pie-chart@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\icon-time.png",
+      "PackagePath": "staticwebassets\\images\\icon-time.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\icon-time@2x.png",
+      "PackagePath": "staticwebassets\\images\\icon-time@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\icon-user.png",
+      "PackagePath": "staticwebassets\\images\\icon-user.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\icon-user@2x.png",
+      "PackagePath": "staticwebassets\\images\\icon-user@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\icons\\favicon.ico",
+      "PackagePath": "staticwebassets\\images\\icons\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\image-1.png",
+      "PackagePath": "staticwebassets\\images\\image-1.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\image-2.png",
+      "PackagePath": "staticwebassets\\images\\image-2.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\image_1.jpg",
+      "PackagePath": "staticwebassets\\images\\image_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\image_2.jpg",
+      "PackagePath": "staticwebassets\\images\\image_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\image_3.jpg",
+      "PackagePath": "staticwebassets\\images\\image_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\image_4.jpg",
+      "PackagePath": "staticwebassets\\images\\image_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\image_5.jpg",
+      "PackagePath": "staticwebassets\\images\\image_5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\image_6.jpg",
+      "PackagePath": "staticwebassets\\images\\image_6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\img-01.png",
+      "PackagePath": "staticwebassets\\images\\img-01.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\loc.png",
+      "PackagePath": "staticwebassets\\images\\loc.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\map-marker.png",
+      "PackagePath": "staticwebassets\\images\\map-marker.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\map-marker@2x.png",
+      "PackagePath": "staticwebassets\\images\\map-marker@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\person-1.jpg",
+      "PackagePath": "staticwebassets\\images\\person-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\person-2.jpg",
+      "PackagePath": "staticwebassets\\images\\person-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\person-3.jpg",
+      "PackagePath": "staticwebassets\\images\\person-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\person_1.jpg",
+      "PackagePath": "staticwebassets\\images\\person_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\person_2.jpg",
+      "PackagePath": "staticwebassets\\images\\person_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\person_3.jpg",
+      "PackagePath": "staticwebassets\\images\\person_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\person_4.jpg",
+      "PackagePath": "staticwebassets\\images\\person_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\registration-form-6.jpg",
+      "PackagePath": "staticwebassets\\images\\registration-form-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\services-1.jpg",
+      "PackagePath": "staticwebassets\\images\\services-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\services-2.jpg",
+      "PackagePath": "staticwebassets\\images\\services-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\services-3.jpg",
+      "PackagePath": "staticwebassets\\images\\services-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\staff-1.jpg",
+      "PackagePath": "staticwebassets\\images\\staff-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\staff-2.jpg",
+      "PackagePath": "staticwebassets\\images\\staff-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\staff-3.jpg",
+      "PackagePath": "staticwebassets\\images\\staff-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\staff-4.jpg",
+      "PackagePath": "staticwebassets\\images\\staff-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\staff-5.jpg",
+      "PackagePath": "staticwebassets\\images\\staff-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\staff-6.jpg",
+      "PackagePath": "staticwebassets\\images\\staff-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\staff-7.jpg",
+      "PackagePath": "staticwebassets\\images\\staff-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\images\\staff-8.jpg",
+      "PackagePath": "staticwebassets\\images\\staff-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\js\\app.js",
+      "PackagePath": "staticwebassets\\js\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\js\\ie-support\\html5.js",
+      "PackagePath": "staticwebassets\\js\\ie-support\\html5.js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\js\\ie-support\\pie.htc",
+      "PackagePath": "staticwebassets\\js\\ie-support\\pie.htc"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\js\\ie-support\\respond.js",
+      "PackagePath": "staticwebassets\\js\\ie-support\\respond.js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\js\\jquery-1.11.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-1.11.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\js\\jquery-1.11.1.min.map",
+      "PackagePath": "staticwebassets\\js\\jquery-1.11.1.min.map"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\js\\login.js",
+      "PackagePath": "staticwebassets\\js\\login.js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\js\\main_reg.js",
+      "PackagePath": "staticwebassets\\js\\main_reg.js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\js\\min\\app-min.js",
+      "PackagePath": "staticwebassets\\js\\min\\app-min.js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\js\\min\\plugins-min.js",
+      "PackagePath": "staticwebassets\\js\\min\\plugins-min.js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\js\\plugins.js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\RUTVIK\\Source\\Repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\prepros-6.config",
+      "PackagePath": "staticwebassets\\prepros-6.config"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\sass\\layout\\_content.scss",
+      "PackagePath": "staticwebassets\\sass\\layout\\_content.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\sass\\layout\\_footer.scss",
+      "PackagePath": "staticwebassets\\sass\\layout\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\sass\\layout\\_header.scss",
+      "PackagePath": "staticwebassets\\sass\\layout\\_header.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\sass\\libs\\_components.scss",
+      "PackagePath": "staticwebassets\\sass\\libs\\_components.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\sass\\libs\\_global.scss",
+      "PackagePath": "staticwebassets\\sass\\libs\\_global.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\sass\\libs\\_mixins.scss",
+      "PackagePath": "staticwebassets\\sass\\libs\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\sass\\libs\\_normalize.scss",
+      "PackagePath": "staticwebassets\\sass\\libs\\_normalize.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\sass\\libs\\_settings.scss",
+      "PackagePath": "staticwebassets\\sass\\libs\\_settings.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\sass\\libs\\bootstrap-grid\\_grid.scss",
+      "PackagePath": "staticwebassets\\sass\\libs\\bootstrap-grid\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\sass\\libs\\bootstrap-grid\\_mixins.scss",
+      "PackagePath": "staticwebassets\\sass\\libs\\bootstrap-grid\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\sass\\libs\\bootstrap-grid\\_settings.scss",
+      "PackagePath": "staticwebassets\\sass\\libs\\bootstrap-grid\\_settings.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\sass\\style.scss",
+      "PackagePath": "staticwebassets\\sass\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\.DS_Store",
+      "PackagePath": "staticwebassets\\scss\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\.DS_Store",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\_button-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\_card.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\_carousel.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\_close.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\_code.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_code.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\_custom-forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_custom-forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\_functions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\_images.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\_input-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\_jumbotron.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_jumbotron.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\_media.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_media.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\_modal.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\_nav.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\_popover.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\_print.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_print.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\_progress.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\_reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\_root.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\_spinners.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\_tables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\_toasts.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\_transitions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\_type.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\mixins\\_background-variant.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_background-variant.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\mixins\\_float.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_float.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\mixins\\_grid-framework.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_grid-framework.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\mixins\\_nav-divider.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_nav-divider.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\mixins\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_screen-reader.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\mixins\\_size.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_size.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\mixins\\_table-row.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_table-row.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\mixins\\_text-emphasis.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_text-emphasis.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\mixins\\_text-hide.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_text-hide.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\mixins\\_visibility.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_visibility.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\utilities\\_align.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_align.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\utilities\\_background.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_background.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\utilities\\_borders.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_borders.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\utilities\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\utilities\\_display.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_display.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\utilities\\_embed.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_embed.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\utilities\\_flex.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_flex.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\utilities\\_float.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_float.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\utilities\\_overflow.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_overflow.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\utilities\\_position.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\utilities\\_screenreaders.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_screenreaders.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\utilities\\_shadows.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_shadows.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\utilities\\_sizing.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_sizing.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\utilities\\_spacing.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_spacing.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\utilities\\_text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_text.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\bootstrap\\utilities\\_visibility.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_visibility.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\scss\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\style.css.map",
+      "PackagePath": "staticwebassets\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\stylenewhome.css",
+      "PackagePath": "staticwebassets\\stylenewhome.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\vendor\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\vendor\\animate\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\vendor\\bootstrap\\js\\popper.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\popper.js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\vendor\\bootstrap\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\vendor\\bootstrap\\js\\tooltip.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\tooltip.js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\vendor\\css-hamburgers\\hamburgers.css",
+      "PackagePath": "staticwebassets\\vendor\\css-hamburgers\\hamburgers.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\vendor\\css-hamburgers\\hamburgers.min.css",
+      "PackagePath": "staticwebassets\\vendor\\css-hamburgers\\hamburgers.min.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\vendor\\jquery\\jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\vendor\\select2\\select2.css",
+      "PackagePath": "staticwebassets\\vendor\\select2\\select2.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\vendor\\select2\\select2.js",
+      "PackagePath": "staticwebassets\\vendor\\select2\\select2.js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\vendor\\select2\\select2.min.css",
+      "PackagePath": "staticwebassets\\vendor\\select2\\select2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\vendor\\select2\\select2.min.js",
+      "PackagePath": "staticwebassets\\vendor\\select2\\select2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\RUTVIK\\source\\repos\\AllinOneFitness_Clone\\Fitness_All_in_One\\wwwroot\\vendor\\tilt\\tilt.jquery.min.js",
+      "PackagePath": "staticwebassets\\vendor\\tilt\\tilt.jquery.min.js"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Fitness_All_in_One.Microsoft.AspNetCore.StaticWebAssets.props",
