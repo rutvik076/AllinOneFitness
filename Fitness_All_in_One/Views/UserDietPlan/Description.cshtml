@@ -1,0 +1,14 @@
+﻿@model DietPlanModel
+
+@if (Model == null)
+{
+    <p>The diet plan could not be found.</p>
+}
+else
+{
+    <h1>@Model.DietName</h1>
+    @Html.Raw(Model.Description)
+
+    <br />
+    <a asp-action="Index">Back to Diet Plans</a>
+}

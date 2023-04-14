@@ -10,38 +10,39 @@ using Fitness_All_in_One.Data;
 
 namespace Fitness_All_in_One.Controllers
 {
-    [Authorize (Roles = "Admin")]
+    [Authorize(Roles = "Admin")]
     public class UsersController : Controller
     {
         private readonly UserManager<ApplicationUser> _userManager;
         // private readonly RoleManager<IdentityRole> _roleManager;
-        
+
 
         public UsersController(UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager)
         {
 
             _userManager = userManager;
             // _roleManager = roleManager;
-           
+
         }
 
         public async Task<IActionResult> Index()
         {
-                  var users = await _userManager.Users.Select(user => new UserViewModel {
-                            Id = user.Id,
-                            Name = user.Name,
-                            Gender = user.Gender,
-                            Age = user.Age,
-                            Weight = user.Weight,
-                            Height = user.Height,
-                            TargetWeight = user.TargetWeight,
-                            Email = user.Email,
-                      //    Roles = _userManager.GetRolesAsync(user).Result
+            var users = await _userManager.Users.Select(user => new UserViewModel
+            {
+                Id = user.Id,
+                Name = user.Name,
+                Gender = user.Gender,
+                Age = user.Age,
+                Weight = user.Weight,
+                Height = user.Height,
+                TargetWeight = user.TargetWeight,
+                Email = user.Email,
+                //    Roles = _userManager.GetRolesAsync(user).Result
 
-                        }).ToListAsync();
+            }).ToListAsync();
 
-                        return View(users);
-    
+            return View(users);
+
         }
         public async Task<IActionResult> Edit(string id)
         {
@@ -60,7 +61,7 @@ namespace Fitness_All_in_One.Controllers
                 Height = user.Height,
                 TargetWeight = user.TargetWeight,
                 Email = user.Email,
-               /* Roles = await _userManager.GetRolesAsync(user)*/
+                /* Roles = await _userManager.GetRolesAsync(user)*/
             };
             return View(viewModel);
         }
@@ -166,8 +167,8 @@ namespace Fitness_All_in_One.Controllers
                 Height = user.Height,
                 TargetWeight = user.TargetWeight,
                 Email = user.Email
-                
-                
+
+
             };
             return View("Delete", viewModel);
         }
@@ -179,6 +180,5 @@ namespace Fitness_All_in_One.Controllers
 
 
 }
-
 
 

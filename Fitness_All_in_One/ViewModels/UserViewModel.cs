@@ -1,13 +1,15 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.Xml.Linq;
+﻿
+using System.ComponentModel.DataAnnotations;
+
 
 namespace Fitness_All_in_One.ViewModels
 {
     public class UserViewModel
     {
-
+       
         public string Id { get; set; }
 
+        
         public string Name { get; set; }
 
         public string Gender { get; set; }

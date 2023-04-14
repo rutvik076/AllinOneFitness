@@ -77,6 +77,7 @@ namespace Fitness_All_in_One.Controllers
 
 
         [HttpGet]
+        
         public IActionResult Description(int id)
         {
             // Retrieve the diet plan with the specified ID
@@ -88,17 +89,10 @@ namespace Fitness_All_in_One.Controllers
                 return NotFound();
             }
 
-            // Pass the diet plan to the view
+            // Pass the name of the view file to the View() method
             return View(dietPlan);
+
         }
-
-
-
-
-
-
-
-
 
 
     }
