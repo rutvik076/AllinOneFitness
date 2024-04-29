@@ -36,6 +36,10 @@ This project is a comprehensive fitness application aimed at providing users wit
      ```
      dotnet tool install --global dotnet-ef
      ```
+4. Install SendGrid package for sending mail
+   ```
+   dotnet add package SendGrid --version 9.29.3
+   ```
 
 ## Usage 🚀
 1. **Sign Up/Login**: Create an account or log in to access all features.
